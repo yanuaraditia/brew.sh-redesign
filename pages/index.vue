@@ -31,6 +31,10 @@
   <section class="py-16 xl:py-24">
     <div class="container mx-auto px-5 lg:w-10/12 xl:w-9/12 2xl:w-8/12">
       <h2 class="text-xl xl:text-3xl mb-4 font-bold">Install Homebrew</h2>
+      <div class="copyable bg-neutral-700 text-white relative rounded-lg border border-neutral-500 shadow-lg flex p-3">
+        <figure class="highlight"><pre class="gap-3 flex"><code class="pointer-events-none text-yellow-500">$</code><code class="language-bash" data-lang="bash">/bin/bash <span class="nt text-blue-400">-c</span> <span class="s2">"</span><span class="si">$(</span>curl <span class="nt text-blue-400">-fsSL</span> https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh<span class="si">)</span><span class="s2">"</span></code></pre></figure>
+        <button aria-label="Copy to clipboard" class="absolute right-4 top-1/2 -translate-y-1/2">📋</button>
+      </div>
     </div>
   </section>
   <section class="py-16 xl:py-24">
